@@ -1,0 +1,11 @@
+GitHub
+
+git init = Para inicializar una carpeta en git (verificar la carpeta)
+git status = Ver el estado del repositorio
+git config user.name "Luiscef"--global = Conectarse al usuario de git desde un computadora (--global es para no tener que hacerlo siempre y cuando este en la misma computadora)
+git add . = Para realizar los nuevos cambios
+git commit -m = Confirmar cambios (m es para mensajes)
+
+Se crea un repositorio desde GitHub y se copia los últimos enlaces de:
+
+…or push an existing repository from the command line

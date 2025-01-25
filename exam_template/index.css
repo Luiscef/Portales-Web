@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 90%;
+}
+
+header{
+    display: flex;
+}
+header nav ul{
+    list-style: none;
+    
+}
+
+header nav ul a{
+    text-decoration: none;
+
+}
+.branding img{
+    border-radius: 50px;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.hero img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.hero h2{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    color: white;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 1rem;
+    width: 175px;
+    justify-content: center;
+    align-items: center;
+}
+.hero a{
+    position: absolute;
+    top: 75%;
+    left:50%;
+    color: black;
+    transform: translateX(-60%) translateY(-50%);
+    margin: 1rem;
+    width: 100px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.gallery {
+    margin: 1rem 0.5rem;
+
+}
+
+.gallery-item{
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 300px;
+    overflow:hidden;
+    border: 1px solid black;
+    margin: 2rem;
+}
+
+.gallery-item img{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 300px;
+
+}
+
+.gallery-item .price{
+    position: absolute;
+    top: 270px;
+    right: 1rem;
+    display: flex;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.location {
+    position: relative;
+    background-color: aqua;
+
+}
+
+.right{
+    padding: 1rem;
+    position: relative;
+}
+.right img{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 300px;
+}
+
+.location{
+    display: block;
+    padding: 1rem;
+}
+
+.left{
+    padding: 0.5rem;
+}
+.left a{
+    display: block;
+
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0.75rem 0.75rem;
+ 
+    
+}
+footer nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width:720) {
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+    header nav{
+        width: auto;
+    }
+}
